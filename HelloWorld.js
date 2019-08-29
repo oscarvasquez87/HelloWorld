@@ -10,3 +10,4 @@ var HelloWorld = (function () {
 })();
 var myHelloClassInstance = new HelloWorld('Oscar', 'Vasquez');
 myHelloClassInstance.sayHello();
+//end of class 
