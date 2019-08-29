@@ -1,14 +1,15 @@
 class HelloWorld {
 
-    constructor(public firstName: string, public lastName: string){
+    constructor(public firstName: string, public lastName: string) {
 
     }
 
-    sayHello(){
+    sayHello() {
         console.log('Hello World! ' + 'My name is ' + this.firstName + ' ' + this.lastName + '.');
     }
-    
+
 }
 
-const myHelloClassInstance = new HelloWorld('Oscar','Vasquez' );
+const myHelloClassInstance = new HelloWorld('Oscar', 'Vasquez');
 myHelloClassInstance.sayHello();
+//end of class
